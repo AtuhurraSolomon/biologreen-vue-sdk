@@ -1,27 +1,38 @@
-node_modules/
-dist/
-.env
-.vscode/
-.DS_Store
-*.log
-coverage/
-.idea/
-*.iml
-*.swp
+Dependencies
+
+/node_modules
+
+Build output
+
+/dist
+
+Logs
+
 npm-debug.log*
-yarn-error.log
-package-lock.json
-yarn.lock
-*.tsbuildinfo
-*.bak
-*.tmp
-*.old
-*.orig
-*.rej
-*.swo
-*.class
-*.war
-*.jar
-*.exe
-*.dll
-*.so
+yarn-debug.log*
+yarn-error.log*
+
+Vite-specific cache
+
+.vite
+
+Editor directories and files
+
+.idea
+.vscode
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.swp
+
+OS generated files
+
+.DS_Store
+Thumbs.db
+
+Environment variables
+
+.env
+.env.local
+.env.*.local
